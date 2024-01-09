@@ -6,9 +6,12 @@
 body{
     max-width: 95%;
     margin: 50px auto;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
 }
+
 /* banner section start */
+
 .banner-one{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)),url('images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -17,6 +20,7 @@ body{
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 20px;
+    border-radius: 26px;
    
 }
 .banner-one > h5{
@@ -29,8 +33,11 @@ body{
     font-weight: 900;
     line-height: 95px;
 }
+
 /* banner section ends*/
+
 /* new year offer section start */
+
 .new-year-offer{
     text-align: center;
     margin-bottom: 48px;
@@ -53,7 +60,9 @@ body{
     margin-bottom: 48px;
     color: #070211;
 }
+
 /* new year offer section ends */
+
 
 /* midnight party section starts */
 
@@ -106,6 +115,7 @@ body{
 }
 
 /* midnight party section ends */
+
 
 /* party time stars */
 .party-time{
@@ -179,6 +189,7 @@ body{
     margin-bottom: 50px;
 }
 /* comming soon ends */
+
 
 /* holiday section starts */
 .holiday-sale{
@@ -271,6 +282,7 @@ body{
 }
 
 /* gift section starts */
+
 
 /*  subscribe section stats */
 
@@ -402,7 +414,8 @@ body{
     z-index: 2;
 }
 
-/* ------------------------------ */
+/* footer section starts */
+
 .footer-side{
     background-color: black;
     color: #FFFFFF;
@@ -427,4 +440,5 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
 /* footer section ends */
