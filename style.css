@@ -325,3 +325,106 @@ body{
 
 
 /* subscribe section ends */
+
+
+
+/* footer section starts */
+
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    
+}
+.contact{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social_mideas{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.copyRight{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.Subscribe{
+    background-color: bisque;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+.subscribe_contant{
+    text-align: center;
+    padding: 60px 0px;
+}
+.subscribe_contant h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe_contant p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.custom_search{
+    width: 400px;
+    position: relative;
+    left: 400px;
+    
+}
+.surch-email{
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 90px;
+    padding: 20px 200px 20px 20px;
+    line-height: 1;
+    outline: none;
+}
+.sub-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border: none;
+    background-color: #F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 7px 29px;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+/* ------------------------------ */
+.footer-side{
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    
+}
+.contact{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social_media{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.copy-right{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+/* footer section ends */
