@@ -179,35 +179,34 @@ body{
     margin-bottom: 50px;
 }
 /* comming soon ends */
-/* ------------------------ */
 
-.holiday_sale{
+/* holiday section starts */
+.holiday-sale{
     text-align: center;
 }
-.holiday_sale > h5{
+.holiday-sale > h5{
     font-size: 24px;
     font-weight: 500px;
 }
-.holiday_sale h1{
+.holiday-sale h1{
     font-size: 72px;
     font-weight: 900;
 }
-.holiday_sale>h1 span{
+.holiday-sale>h1 span{
     color: #F00;
 }
-.holiday_sale p{
+.holiday-sale p{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
 
-.discount_img{
+.discount-img{
     position: relative;
     bottom: 100px;
     display: grid; 
     margin-top: -200px;
-    /* margin-bottom: 50px; */
     grid-template-columns:repeat(3,1fr); 
     
 }
@@ -216,22 +215,113 @@ body{
     top: 325px;
     
 }
-.fifty_per{
+.fifty-per{
     position: relative;
     right: 590px;
     top: 400px;
     
 }
-.sopping_per{
+.sopping-per{
     position: relative;
     left: 0px;
     top: 330px;
     
 }
 
-.red_color img{
+.red-color img{
     width: 100%;
-    /* position: relative;
-    bottom: 100px; */
+
 }
-/* comming soon ends */
+/* holiday section ends */
+
+.gift-one{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+.gift-one h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+.gift-one h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.gift-one p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.gifts-card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.gifts-card >div img{
+    width: 100%;
+}
+.gifts-card > div img:hover{
+    border: 3px solid tomato;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px red;
+}
+
+/* gift section starts */
+
+/*  subscribe section stats */
+
+
+.subscribe{
+    background-color: bisque;
+    border-radius: 9px;
+    margin-bottom: 30px;
+}
+.subscribe-contant{
+    text-align: center;
+    padding: 60px 0px;
+}
+.subscribe-contant h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+.subscribe-contant p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.custom-search{
+    width: 400px;
+    position: relative;
+    left: 400px;
+    
+}
+.surch-email{
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 90px;
+    padding: 20px 200px 20px 20px;
+    line-height: 1;
+    outline: none;
+}
+.sub-btn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    border: none;
+    background-color: #F00;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 7px 29px;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+
+/* subscribe section ends */
